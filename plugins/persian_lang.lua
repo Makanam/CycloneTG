@@ -1,17 +1,3 @@
---------------------------------------------------
---      ____  ____ _____                        --
---     |    \|  _ )_   _|___ ____   __  __      --
---     | |_  )  _ \ | |/ ·__|  _ \_|  \/  |     --
---     |____/|____/ |_|\____/\_____|_/\/\_|     --
---                                              --
---------------------------------------------------
---                                              --
---       Developers: @Josepdal & @MaSkAoS       --
---     Support: @Skneos,  @iicc1 & @serx666     --
---                                              --
---           Translated by: @NimaGame           --
---                                              --
---------------------------------------------------
 local LANG = 'fa'
 
 local function run(msg, matches)
@@ -339,8 +325,8 @@ end
 
 return {
     patterns = {
-        '#(install) (persian_lang)$',
-        '#(update) (persian_lang)$'
+        '(install) (persian_lang)$',
+        '(update) (persian_lang)$'
     },
     run = run
 }
