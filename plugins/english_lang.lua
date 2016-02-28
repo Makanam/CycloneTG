@@ -1,16 +1,3 @@
---------------------------------------------------
---      ____  ____ _____                        --
---     |    \|  _ )_   _|___ ____   __  __      --
---     | |_  )  _ \ | |/ ·__|  _ \_|  \/  |     --
---     |____/|____/ |_|\____/\_____|_/\/\_|     --
---                                              --
---------------------------------------------------
---                                              --
---       Developers: @Josepdal & @MaSkAoS       --
---     Support: @Skneos,  @iicc1 & @serx666     --
---                                              --
---------------------------------------------------
-
 local LANG = 'en'
 
 local function run(msg, matches)
@@ -340,8 +327,8 @@ end
 
 return {
 	patterns = {
-		'#(install) (english_lang)$',
-		'#(update) (english_lang)$'
+		'(install) (english_lang)$',
+		'(update) (english_lang)$'
 	},
 	run = run
 }
