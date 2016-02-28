@@ -1,16 +1,3 @@
---------------------------------------------------
---      ____  ____ _____                        --
---     |    \|  _ )_   _|___ ____   __  __      --
---     | |_  )  _ \ | |/ ·__|  _ \_|  \/  |     --
---     |____/|____/ |_|\____/\_____|_/\/\_|     --
---                                              --
---------------------------------------------------
---                                              --
---       Developers: @Josepdal & @MaSkAoS       --
---     Support: @Skneos,  @iicc1 & @serx666     --
---                                              --
---------------------------------------------------
-
 do
 
 local function remove_message(extra, success, result)
@@ -662,17 +649,17 @@ end
 
 return {
     patterns = {
-        '^#(settings)$',
-        '^#(settings) (.*) (.*)$',
-        '^#(rem)$',
-        '^#(setname) (.*)$',
-        '^#(setphoto)$',
-        '^#(setphoto) (.*)$',
-        '^#(link)$',
-        "^#(tosupergroup)$",
-        "^#(setdescription) (.*)$",
-        '^#(setlink) (.*)$',
-        '^#(lang) (.*)$'
+        '^(settings)$',
+        '^(settings) (.*) (.*)$',
+        '^(rem)$',
+        '^#setname) (.*)$',
+        '^(setphoto)$',
+        '^(setphoto) (.*)$',
+        '^(link)$',
+        "^(tosupergroup)$",
+        "^(setdescription) (.*)$",
+        '^(setlink) (.*)$',
+        '^(lang) (.*)$'
     },
     pre_process = pre_process,
     run = run
