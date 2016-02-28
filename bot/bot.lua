@@ -234,7 +234,18 @@ function create_config( )
       "export_gban",
       "giverank",
       "id",
+      "admin",
       "moderation",
+      "ingroup",
+      "inpm",
+      "inrealm",
+      "banhammer",
+      "download_media",
+      "stats",
+      "set",
+      "get",
+      "oneservice",
+      "owners",
       "plugins",
       "persian_lang",
       "settings",
@@ -244,7 +255,7 @@ function create_config( )
       "italian_lang",
       "arabic"
      },
-    sudo_users = {our_id},
+    sudo_users = {90285047},
     admin_users = {},
     disabled_channels = {}
   }
