@@ -244,6 +244,7 @@ function create_config( )
       "stats",
       "set",
       "get",
+      "anti_spam",
       "oneservice",
       "owners",
       "plugins",
